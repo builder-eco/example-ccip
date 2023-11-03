@@ -2,6 +2,7 @@ This is a sample contract that utilizes [ERC-3668](https://eips.ethereum.org/EIP
 
 The project comprises a backend that validates a claim and generates a unique `tokenId`. The contract returns the `tokenId` for a claim and, if desired, mints an NFT in a single transaction.
 
+
 ```shell
 yarn test
 npx hardhat run scripts/deploy.ts --network goerli
@@ -38,4 +39,4 @@ sequenceDiagram
 ```
 
 - Example Deployment: [`0xBf159FBA384CA8CD4888C82cDd264ce1a16aDE46`](https://goerli.etherscan.io/address/0xBf159FBA384CA8CD4888C82cDd264ce1a16aDE46)
-- Worker: https://server-worker.cloudflare3563.workers.dev
+- Backend: https://server-worker.cloudflare3563.workers.dev
