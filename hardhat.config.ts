@@ -13,7 +13,7 @@ module.exports = {
     enabled: true
   },
   etherscan: {
-    apiKey: 'TXDUYTXSGRMPCBMHN5V4GX7PBZPRM1JY3Y'
+    apiKey: ''
   }
 };
 
