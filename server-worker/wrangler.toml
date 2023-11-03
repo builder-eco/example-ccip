@@ -1,0 +1,6 @@
+name = "server-worker"
+main = "src/worker.ts"
+compatibility_date = "2023-11-03"
+
+[vars]
+SIGNER_PRIVATE_KEY = "0x1d5a20a03913d1c6980c1a38aa7e161c41b487ce200ec46e6bea9e7a1d2d3f1d"
