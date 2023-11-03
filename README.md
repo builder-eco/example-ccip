@@ -1,3 +1,7 @@
+This is a sample contract that utilizes [ERC-3668](https://eips.ethereum.org/EIPS/eip-3668) to retrieve data from an off-chain source.
+
+The project comprises a backend that validates a claim and generates a unique `tokenId`. The contract returns the `tokenId` for a claim and, if desired, mints an NFT in a single transaction.
+
 ```shell
 yarn test
 npx hardhat run scripts/deploy.ts --network goerli
